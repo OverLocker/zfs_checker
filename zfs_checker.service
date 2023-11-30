@@ -1,0 +1,11 @@
+[Unit]
+Description=ZFS-Checker. API and Telegram Sender.
+After=network.target
+
+[Service]
+ExecStart=/scripts/ZFS/venv/bin/python /scripts/ZFS/main.py
+WorkingDirectory=/scripts/python
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

@@ -3,6 +3,8 @@
 - Периодически проверяет состояние пула автоматически.
 - В случае ошибок отправляет сообщение в telegram.
 
+Приложен системный сервис для запуска (systemd)
+
 Перед запуском необходим создать config.py из примера и заполнить.
 
 This app do:
@@ -11,6 +13,7 @@ This app do:
 - If errors - sends message to telegram with pool status
 
 Before start copy config.py from example and fill it with needed data.
+Systemd service file is included
 
 
 Tested on Python3.11 and Debian 11
