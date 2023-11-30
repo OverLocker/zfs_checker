@@ -1,0 +1,5 @@
+TOKEN=""
+CHAT_ID=
+URL = "http://localhost:7800/zfs_status"
+HOST = '0.0.0.0'
+PORT = 7800
