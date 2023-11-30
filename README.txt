@@ -7,6 +7,3 @@ This app do:
 - Systemd service file is included.
 
 Tested on Python3.11 and Debian 11.
-
-
-123456
